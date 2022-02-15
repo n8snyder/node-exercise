@@ -1,0 +1,22 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "node-practice",
+  "main": "step1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevtang/node-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevtang/node-exercise/issues"
+  },
+  "homepage": "https://github.com/stevtang/node-exercise#readme",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
