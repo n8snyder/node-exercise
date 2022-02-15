@@ -3,15 +3,16 @@
 const fsP = require("fs/promises");
 const path = process.argv[2];
 
-async function cat(path){
-    console.log("path", path);
+
+/** Reads a file and print to the console the contents. */
+
+async function cat(path) {
     try {
         let contents = await fsP.readFile(path, "utf8");
-        console.log("contents", contents);
-    } catch(err) {
+        console.log(contents);
+    } catch (err) {
         console.log(err.message);
         process.exit(1);
-        
     }
 }
 
